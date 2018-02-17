@@ -1,7 +1,7 @@
 -#!/bin/sh              
- echo '715d73bcee5d4cb3a9b7f470ad825606' | sudo -S cd /var/www/node-project  
- echo '715d73bcee5d4cb3a9b7f470ad825606' | sudo -S git pull       
- echo '715d73bcee5d4cb3a9b7f470ad825606' | sudo -S npm install --production       
- echo '715d73bcee5d4cb3a9b7f470ad825606' | sudo -S | pm2 restart all
+ echo 'super2016' | sudo -S cd /var/www/node-project  
+ echo 'super2016' | sudo -S git pull       
+ echo 'super2016' | sudo -S npm install --production       
+ echo 'super2016' | sudo -S | pm2 restart all
  exit       
 EOF
