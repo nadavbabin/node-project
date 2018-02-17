@@ -1,7 +1,7 @@
 -#!/bin/sh              
- echo 'super2016' | sudo -S cd /var/www/node-project  
- echo 'super2016' | sudo -S git pull       
- echo 'super2016' | sudo -S npm install --production       
- echo 'super2016' | sudo -S | pm2 restart all
+ sudo -S cd /var/www/node-project  
+ sudo -S git pull       
+ sudo -S npm install --production       
+ sudo -S | pm2 restart all
  exit       
 EOF
