@@ -1,8 +1,7 @@
 -#!/bin/sh
-
- sudo -S cd /var/www/node-project - true  
- sudo -S git pull - true       
- sudo -S npm install --production - true       
- sudo -S pm2 restart all - true
+ echo '' | sudo -S cd /var/www/node-project  
+ echo '' | sudo -S git pull
+ echo '' | sudo -S npm install --production       
+ echo '' | sudo -S pm2 restart all
  exit       
 EOF
