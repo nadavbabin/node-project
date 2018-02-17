@@ -1,7 +1,7 @@
--#!/bin/sh              
- echo '715d73bcee5d4cb3a9b7f470ad825606' | sudo -S cd /var/www/node-project  
- echo '715d73bcee5d4cb3a9b7f470ad825606' | sudo -S git pull       
- echo '715d73bcee5d4cb3a9b7f470ad825606' | sudo -S npm install --production       
- echo '715d73bcee5d4cb3a9b7f470ad825606' | sudo -S | pm2 restart all
+-#!/bin/sh     
+ sudo '715d73bcee5d4cb3a9b7f470ad825606' jenkins cd /var/www/node-project  
+ sudo '715d73bcee5d4cb3a9b7f470ad825606' jenkins git pull       
+ sudo '715d73bcee5d4cb3a9b7f470ad825606' jenkins npm install --production       
+ sudo '715d73bcee5d4cb3a9b7f470ad825606' jenkins pm2 restart all
  exit       
 EOF
