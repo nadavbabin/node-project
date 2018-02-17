@@ -2,6 +2,6 @@
  cd /var/www/node-project  
  sudo git pull origin master
  sudo npm install       
- sudo pm2 start app.js
+ sudo pm2 restart all
  exit       
 EOF
