@@ -1,7 +1,8 @@
--#!/bin/sh     
- sudo '715d73bcee5d4cb3a9b7f470ad825606' jenkins cd /var/www/node-project  
- sudo '715d73bcee5d4cb3a9b7f470ad825606' jenkins git pull       
- sudo '715d73bcee5d4cb3a9b7f470ad825606' jenkins npm install --production       
- sudo '715d73bcee5d4cb3a9b7f470ad825606' jenkins pm2 restart all
+-#!/bin/sh
+
+ sudo -S cd /var/www/node-project - true  
+ sudo -S git pull - true       
+ sudo -S npm install --production - true       
+ sudo -S pm2 restart all - true
  exit       
 EOF
