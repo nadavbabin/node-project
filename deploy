@@ -1,6 +1,6 @@
 -#!/bin/sh
  sudo cd /var/www/node-project  
- sudo git pull
+ sudo git pull origin master
  sudo npm install --production       
  sudo pm2 restart all
  exit       
