@@ -1,6 +1,5 @@
--#!/bin/sh      
-ssh userName@development-server-ip <<EOF        
- cd /your-project-path  
+-#!/bin/sh              
+ cd /var/www/node-project  
  git pull       
  npm install --production       
  pm2 restart all
